@@ -1,0 +1,8 @@
+### IDE Configuration Directories ###
+
+.idea/
+.vscode/
+
+### IDE Configuration Files ###
+
+*.iml
