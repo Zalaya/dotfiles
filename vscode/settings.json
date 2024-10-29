@@ -5,6 +5,7 @@
     "editor.fontSize": 12,
     "editor.fontWeight": "400",
     "terminal.integrated.fontSize": 12,
+    "chat.editor.fontSize": 12,
     "editor.lineHeight": 1.8,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
