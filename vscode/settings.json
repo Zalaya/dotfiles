@@ -4,6 +4,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
     "editor.fontWeight": "400",
+    "explorer.autoReveal": false,
     "terminal.integrated.fontSize": 12,
     "chat.editor.fontSize": 12,
     "editor.lineHeight": 1.8,
@@ -17,10 +18,14 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "github.copilot.chat.localeOverride": "en",
-    "github.copilot.chat.experimental.inlineChatCompletionTrigger.enabled": true,
-    "github.copilot.chat.experimental.inlineChatHint.enabled": true,
-    "github.copilot.chat.experimental.temporalContext.enabled": true,
     "explorer.confirmDelete": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.stickyScroll.enabled": true,
+    "workbench.tree.enableStickyScroll": true,
+    "explorer.fileNesting.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
