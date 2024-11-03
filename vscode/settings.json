@@ -9,12 +9,17 @@
     "chat.editor.fontSize": 12,
     "editor.lineHeight": 1.8,
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 0.4,
+    "window.zoomLevel": 0.25,
+    "editor.smoothScrolling": true,
+    "editor.rulers": [
+      100,
+      120
+    ],
     "breadcrumbs.enabled": false,
     "workbench.tree.indent": 16,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "explorer.compactFolders": false,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "git.enableSmartCommit": true,
     "workbench.editor.enablePreview": false,
@@ -30,5 +35,6 @@
     "workbench.tree.enableStickyScroll": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "files.autoSave": "afterDelay",
-    "javascript.updateImportsOnFileMove.enabled": "always"
-}
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "headwind.runOnSave": false
+  }
