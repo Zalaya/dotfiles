@@ -1,43 +1,70 @@
 {
+  // Theme & Visual Settings
   "workbench.colorTheme": "Gruvbox Dark Medium",
   "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.enablePreview": false,
+
+  // Editor Font & Text Settings
   "editor.fontFamily": "Geist Mono",
   "editor.fontSize": 12,
   "editor.fontWeight": "400",
-  "explorer.autoReveal": false,
-  "terminal.integrated.fontSize": 12,
-  "chat.editor.fontSize": 12,
   "editor.lineHeight": 1.8,
-  "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 0.25,
-  "editor.smoothScrolling": true,
-  "editor.rulers": [
-    100,
-    120
-  ],
-  "breadcrumbs.enabled": false,
-  "workbench.tree.indent": 16,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "explorer.compactFolders": false,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "git.enableSmartCommit": true,
-  "workbench.editor.enablePreview": false,
+
+  // Editor Behavior
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": true,
-  "git.autofetch": true,
-  "github.copilot.chat.localeOverride": "en",
-  "explorer.confirmDelete": false,
-  "extensions.ignoreRecommendations": true,
-  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.rulers": [80, 100, 120],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.stickyScroll.enabled": true,
-  "workbench.tree.enableStickyScroll": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+
+  // File Management
   "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Explorer Settings
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  // Terminal Settings
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+
+  // Git Settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Language Specific
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
+
+  // Prettier Configuration
   "prettier.tabWidth": 2,
-  "prettier.singleQuote": false
+  "prettier.singleQuote": false,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "es5",
+
+  // Other Settings
+  "breadcrumbs.enabled": false,
+  "chat.editor.fontSize": 12,
+  "window.zoomLevel": 0.25,
+  "extensions.ignoreRecommendations": true,
+  "github.copilot.chat.localeOverride": "en"
 }
