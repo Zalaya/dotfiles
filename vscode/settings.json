@@ -20,10 +20,10 @@
   "editor.linkedEditing": true,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
-  "editor.rulers": [80, 100, 120],
+  "editor.rulers": [100, 120],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
 
   // File Management
   "files.autoSave": "afterDelay",
@@ -54,13 +54,22 @@
   // Prettier Configuration
   "prettier.tabWidth": 2,
   "prettier.singleQuote": false,
-  "prettier.printWidth": 100,
   "prettier.trailingComma": "es5",
+
+  // GitHub Copilot Configuration
+  "github.copilot.chat.localeOverride": "es",
+  "github.copilot.chat.followUps": "always",
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.terminalChatLocation": "quickChat",
+  "github.copilot.chat.generateTests.codeLens": true,
+  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
+  "github.copilot.chat.inlineChatHint.enabled": true,
+  "github.copilot.chat.search.semanticTextResults": true,
+  "github.copilot.chat.temporalContext.enabled": true,
 
   // Other Settings
   "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 12,
   "window.zoomLevel": 0.25,
-  "extensions.ignoreRecommendations": true,
-  "github.copilot.chat.localeOverride": "en"
+  "extensions.ignoreRecommendations": true
 }
