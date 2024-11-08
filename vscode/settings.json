@@ -17,16 +17,12 @@
 
   // Editor Behavior
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
   "editor.linkedEditing": true,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
   "editor.rulers": [80, 100, 120],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
 
   // File Management
