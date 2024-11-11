@@ -8,15 +8,15 @@
   "workbench.editor.enablePreview": false,
 
   // Editor Font & Text Settings
-  "editor.fontFamily": "Geist Mono",
-  "editor.fontSize": 12,
-  "editor.fontWeight": "400",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "350",
   "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
 
   // Editor Behavior
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "GitHub.copilot",
   "editor.linkedEditing": true,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
@@ -51,11 +51,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  // Prettier Configuration
-  "prettier.tabWidth": 2,
-  "prettier.singleQuote": false,
-  "prettier.trailingComma": "es5",
-
   // GitHub Copilot Configuration
   "github.copilot.chat.localeOverride": "es",
   "github.copilot.chat.followUps": "always",
@@ -70,6 +65,6 @@
   // Other Settings
   "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 12,
-  "window.zoomLevel": 0.25,
+  "window.zoomLevel": 0.75,
   "extensions.ignoreRecommendations": true
 }

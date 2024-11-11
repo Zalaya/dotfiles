@@ -1,6 +1,5 @@
 atommaterial.a-file-icon-vscode
 bradlc.vscode-tailwindcss
-esbenp.prettier-vscode
 github.copilot
 github.copilot-chat
 jdinhlife.gruvbox
