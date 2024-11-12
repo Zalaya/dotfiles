@@ -3,3 +3,4 @@ bradlc.vscode-tailwindcss
 github.copilot
 github.copilot-chat
 jdinhlife.gruvbox
+richie5um2.vscode-sort-json
