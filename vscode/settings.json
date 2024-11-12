@@ -8,9 +8,9 @@
   "workbench.editor.enablePreview": false,
 
   // Editor Font & Text Settings
-  "editor.fontFamily": "Cascadia Code",
-  "editor.fontSize": 13,
-  "editor.fontWeight": "350",
+  "editor.fontFamily": "Geist Mono",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "400",
   "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -65,6 +65,6 @@
   // Other Settings
   "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 12,
-  "window.zoomLevel": 0.75,
+  "window.zoomLevel": 0.5,
   "extensions.ignoreRecommendations": true
 }
