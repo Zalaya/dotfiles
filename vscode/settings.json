@@ -8,9 +8,9 @@
   "workbench.editor.enablePreview": false,
 
   // Editor Font & Text Settings
-  "editor.fontFamily": "Geist Mono",
+  "editor.fontFamily": "'IBM Plex Mono'",
   "editor.fontSize": 12,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "450",
   "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -20,7 +20,9 @@
   "editor.linkedEditing": true,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
-  "editor.rulers": [100, 120],
+  "editor.rulers": [
+    100, 120
+  ],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.minimap.enabled": true,
@@ -65,6 +67,6 @@
   // Other Settings
   "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 12,
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 0.6,
   "extensions.ignoreRecommendations": true
 }
